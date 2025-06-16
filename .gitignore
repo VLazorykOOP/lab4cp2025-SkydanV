@@ -1,1 +1,13 @@
-#  add file's  ignore pull - push 
+# Visual Studio temporary files
+.vs/
+
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+
+# Other
+*.log

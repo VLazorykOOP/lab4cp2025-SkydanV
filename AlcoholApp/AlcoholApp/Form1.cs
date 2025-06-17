@@ -44,7 +44,7 @@ namespace AlcoholApp
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Помилка при завантаженні даних: " + ex.Message);
+                MessageBox.Show("ГЏГ®Г¬ГЁГ«ГЄГ  ГЇГ°ГЁ Г§Г ГўГ Г­ГІГ Г¦ГҐГ­Г­Ві Г¤Г Г­ГЁГµ: " + ex.Message);
             }
         }
 
@@ -58,14 +58,14 @@ namespace AlcoholApp
         {
             if (dataGridView1.CurrentRow == null)
             {
-                MessageBox.Show("Оберіть товар для замовлення");
+                MessageBox.Show("ГЋГЎГҐГ°ВіГІГј ГІГ®ГўГ Г° Г¤Г«Гї Г§Г Г¬Г®ГўГ«ГҐГ­Г­Гї");
                 return;
             }
 
             string product = dataGridView1.CurrentRow.Cells["brand"].Value.ToString();
 
-            MessageBox.Show($"Замовлено продукт: {product}");
-            // Можеш сюди додати логіку для замовлення в БД
+            MessageBox.Show($"Г‡Г Г¬Г®ГўГ«ГҐГ­Г® ГЇГ°Г®Г¤ГіГЄГІ: {product}");
+           
         }
     }
 }
